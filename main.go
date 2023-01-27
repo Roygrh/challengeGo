@@ -1,10 +1,10 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"os"
-	"regexp"
 	"strings"
 )
 
@@ -29,9 +29,9 @@ type Email struct {
 }
 
 func getKeyWords() []string {
-	words := []string{"Message-ID:", "Date:", "From:", "To:", "Subject:",
-		"Cc:", "Mime_Version:", "Content_Type:", "Content_Transfer_Encoding:",
-		"Bcc:", "X_From:", "X_To:", "X_bcc:", "X_Folder:", "X_Origin:", "X_FileName:"}
+	words := []string{"Message-ID", "Date", "From", "To", "Subject",
+		"Cc", "Mime_Version", "Content_Type", "Content_Transfer_Encoding",
+		"Bcc", "X_From", "X_To", "X_bcc", "X_Folder", "X_Origin", "X_FileName"}
 	return words
 }
 
@@ -60,7 +60,7 @@ func getDataFromFile(path string) []string {
 func validateKeywords(line string, words []string) int {
 	index := -1
 	for i, word := range words {
-		result := strings.Contains(line, word)
+		result := strings.Contains(line, word+":")
 		if result {
 			return i
 		}
@@ -69,12 +69,42 @@ func validateKeywords(line string, words []string) int {
 }
 
 func setValue(line string, words []string, jsonString string) string {
+	result := ``
 	index := validateKeywords(line, words)
+
 	if index >= 0 {
 		line = strings.Trim(line, " ")
-		jsonString += words[index]
+		values := strings.Split(line, words[index]+":")
+		if len(jsonString) > 0 {
+			tmp := `","` + words[index] + `":"` + values[1]
+			result = result + tmp
+		} else {
+			tmp := `{"` + words[index] + `":"` + values[1]
+			result = result + tmp
+		}
+	} else {
+		result = line
 	}
-	return jsonString
+	return result
+}
+
+func setAllValues(content string) string {
+	lines := strings.Split(content, "\n")
+	contentString := make([]string, len(lines)+2)
+	//contentString[0] = "{"
+	words := getKeyWords()
+	for i, line := range lines {
+		result := strings.Join(contentString, "")
+		tmp := setValue(line, words, result)
+		contentString[i] = tmp
+		if i == 0 {
+			contentString[i] = tmp + "\n"
+		} else {
+			contentString[i] = tmp + "\n"
+		}
+	}
+	contentString[len(lines)] = `"}`
+	return strings.Join(contentString, "")
 }
 
 func main() {
@@ -92,17 +122,32 @@ func main() {
 	}
 
 	emailContent := string(content)
-	firsLine := emailContent[:5200]
+	part := emailContent[:100]
+
+	result := setAllValues(part)
+	//part := emailContent[:5210]
 	//lines := strings.Split(firsLine, "\n")
 
-	re := regexp.MustCompile("Message-ID: (.*)\nDate: (.*)\nFrom: (.*)\nTo: (.*)")
+	/*re := regexp.MustCompile("Message-ID: (.*)\nDate: (.*)\nFrom: (.*)\nTo: (.*)")
 	match := re.FindStringSubmatch(firsLine)
 	if match != nil {
 		//fmt.Println(firsLine)
 	}
 
 	line := "Message-ID: <1293396.1075840371988.JavaMail.evans@thyme>"
-	parts := strings.Split(line, "Message-ID:")
+	parts := strings.Split(line, "Message-ID:")*/
 
-	fmt.Println(strings.Trim(parts[1], " "))
+	fmt.Println("/******/")
+	fmt.Println(result)
+	fmt.Println(len(result))
+	/*a := `{"Message-ID":" <1293396.1075840371988.JavaMail.evans@thyme>
+	","Date":" Wed, 6 Feb 2002 16:09:37 -0800 (PST)
+	"}`*/
+	b := strings.ReplaceAll(result, " ", "")
+	//c := strings.ReplaceAll(b, "\n", "")
+	fmt.Println(b)
+	var jsonData map[string]interface{}
+	json.Unmarshal([]byte(b), &jsonData)
+	fmt.Println(jsonData)
+	//fmt.Println(result)
 }
