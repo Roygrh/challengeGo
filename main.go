@@ -68,43 +68,57 @@ func validateKeywords(line string, words []string) int {
 	return index
 }
 
-func setValue(line string, words []string, jsonString string) string {
-	result := ``
+func setValue(line string, nextLine string, words []string, jsonString string) string {
+	var result string
 	index := validateKeywords(line, words)
-
+	nextIndex := validateKeywords(nextLine, words)
 	if index >= 0 {
 		line = strings.Trim(line, " ")
 		values := strings.Split(line, words[index]+":")
 		if len(jsonString) > 0 {
-			tmp := `","` + words[index] + `":"` + values[1]
-			result = result + tmp
+			tmp := `"` + words[index] + `":"` + values[1]
+			if nextIndex == -1 {
+				result = tmp
+			} else {
+				result = tmp[:len(tmp)-1] + `",`
+			}
 		} else {
 			tmp := `{"` + words[index] + `":"` + values[1]
-			result = result + tmp
+			if nextIndex == -1 {
+				result = tmp
+			} else {
+				result = tmp[:len(tmp)-1] + `",`
+			}
 		}
 	} else {
-		result = line
+		if nextIndex == -1 {
+			result = line
+		} else {
+			result = line + `",`
+		}
 	}
 	return result
 }
 
 func setAllValues(content string) string {
 	lines := strings.Split(content, "\n")
-	contentString := make([]string, len(lines)+2)
-	//contentString[0] = "{"
+	contentString := make([]string, len(lines))
 	words := getKeyWords()
 	for i, line := range lines {
 		result := strings.Join(contentString, "")
-		tmp := setValue(line, words, result)
-		contentString[i] = tmp
-		if i == 0 {
-			contentString[i] = tmp + "\n"
+		if i < len(lines)-1 {
+			tmp := setValue(strings.Trim(line, " "), lines[i+1], words, result)
+			contentString[i] = tmp
 		} else {
-			contentString[i] = tmp + "\n"
+			tmp := setValue(strings.Trim(line, " "), "", words, result)
+			contentString[i] = tmp
 		}
 	}
-	contentString[len(lines)] = `"}`
-	return strings.Join(contentString, "")
+	totalResult := strings.Join(contentString, "")
+	fmt.Println(totalResult)
+	returnValue := totalResult[:len(totalResult)-1] + `"}`
+	//contentString[len(lines)] = `"}`
+	return returnValue
 }
 
 func main() {
@@ -122,30 +136,16 @@ func main() {
 	}
 
 	emailContent := string(content)
-	part := emailContent[:100]
+	//part := emailContent[:200]
 
-	result := setAllValues(part)
+	result := setAllValues(emailContent)
 	//part := emailContent[:5210]
 	//lines := strings.Split(firsLine, "\n")
-
-	/*re := regexp.MustCompile("Message-ID: (.*)\nDate: (.*)\nFrom: (.*)\nTo: (.*)")
-	match := re.FindStringSubmatch(firsLine)
-	if match != nil {
-		//fmt.Println(firsLine)
-	}
-
-	line := "Message-ID: <1293396.1075840371988.JavaMail.evans@thyme>"
-	parts := strings.Split(line, "Message-ID:")*/
-
-	fmt.Println("/******/")
 	fmt.Println(result)
-	fmt.Println(len(result))
-	/*a := `{"Message-ID":" <1293396.1075840371988.JavaMail.evans@thyme>
-	","Date":" Wed, 6 Feb 2002 16:09:37 -0800 (PST)
-	"}`*/
-	b := strings.ReplaceAll(result, " ", "")
+	fmt.Println("/******/")
+	b := strings.ReplaceAll(result, "	", "")
 	//c := strings.ReplaceAll(b, "\n", "")
-	fmt.Println(b)
+	//fmt.Println(b)
 	var jsonData map[string]interface{}
 	json.Unmarshal([]byte(b), &jsonData)
 	fmt.Println(jsonData)
