@@ -102,21 +102,25 @@ func setValue(line string, nextLine string, words []string, jsonString string) s
 
 func setAllValues(content string) string {
 	lines := strings.Split(content, "\n")
-	contentString := make([]string, len(lines))
+	contentString := make([]string, len(lines)+1)
 	words := getKeyWords()
 	for i, line := range lines {
+		if i == 123 {
+			tmp1 := strings.TrimSpace(line)
+			fmt.Println(len(tmp1))
+		}
 		result := strings.Join(contentString, "")
 		if i < len(lines)-1 {
-			tmp := setValue(strings.Trim(line, " "), lines[i+1], words, result)
+			tmp := setValue(strings.TrimSpace(line), lines[i+1], words, result)
 			contentString[i] = tmp
 		} else {
-			tmp := setValue(strings.Trim(line, " "), "", words, result)
+			tmp := setValue(strings.TrimSpace(line), "", words, result)
 			contentString[i] = tmp
 		}
 	}
+	contentString[len(lines)] = `"}`
 	totalResult := strings.Join(contentString, "")
-	fmt.Println(totalResult)
-	returnValue := totalResult[:len(totalResult)-1] + `"}`
+	returnValue := totalResult[:len(totalResult)-1]
 	//contentString[len(lines)] = `"}`
 	return returnValue
 }
@@ -136,12 +140,12 @@ func main() {
 	}
 
 	emailContent := string(content)
-	//part := emailContent[:200]
+	//part := emailContent[:261]
 
 	result := setAllValues(emailContent)
 	//part := emailContent[:5210]
 	//lines := strings.Split(firsLine, "\n")
-	fmt.Println(result)
+	//fmt.Println(part)
 	fmt.Println("/******/")
 	b := strings.ReplaceAll(result, "	", "")
 	//c := strings.ReplaceAll(b, "\n", "")
