@@ -1,124 +1,227 @@
-Message-ID: <1293396.1075840371988.JavaMail.evans@thyme>
-Date: Wed, 6 Feb 2002 16:09:37 -0800 (PST)
-From: liz.taylor@enron.com
-To: chris.lackey@enron.com, michael.mcdonald@enron.com, laura.wente@enron.com, 
-	tim.belden@enron.com, jeff.richter@enron.com, 
-	bryant.frihart@enron.com, deirdre.mccaffrey@enron.com, 
-	h..lewis@enron.com, vladi.pimenov@enron.com, s..shively@enron.com, 
-	geoff.storey@enron.com, trading <.williams@enron.com>, 
-	r..brackett@enron.com, s..bradford@enron.com, 
-	kortney.brown@enron.com, wendy.conwell@enron.com, 
-	stephanie.mcginnis@enron.com, roderick.nelson@enron.com, 
-	monica.reasoner@enron.com, edward.sacks@enron.com, 
-	max.sonnonstine@enron.com, john.suttle@enron.com, 
-	credit <.williams@enron.com>, caroline.abramo@enron.com, 
-	craig.breslau@enron.com, n..gilbert@enron.com, 
-	fred.lagrasta@enron.com, h..otto@enron.com, sheetal.patel@enron.com, 
-	jennifer.shipos@enron.com, jared.kaiser@enron.com, 
-	craig.taylor@enron.com, frank.vickers@enron.com, 
-	chuck.ames@enron.com, f..brawner@enron.com, jonathan.mckay@enron.com, 
-	scott.neal@enron.com, andrea.ring@enron.com, judy.townsend@enron.com, 
-	robert.stalford@enron.com, steve.wang@enron.com, m..presto@enron.com, 
-	gerry.hrap@enron.com, grant.oh@enron.com, fabian.taylor@enron.com, 
-	garrett.tripp@enron.com, edith.cross@enron.com, mike.curry@enron.com, 
-	leonardo.pacheco@enron.com, doug.gilbert-smith@enron.com, 
-	jeff.king@enron.com, paul.schiavone@enron.com, 
-	dipak.agarwalla@enron.com, adam.bayer@enron.com, bart.burk@enron.com, 
-	jd.buss@enron.com, mog.heu@enron.com, kevin.cline@enron.com, 
-	chris.gaskill@enron.com, gustavo.giron@enron.com, 
-	tim.heizenrader@enron.com, rika.imai@enron.com, 
-	robert.johnston@enron.com, jozef.lieskovsky@enron.com, 
-	martin.lin@enron.com, souad.mahmassani@enron.com, 
-	mauricio.marquez@enron.com, kourtney.nelson@enron.com, 
-	justin.o'malley@enron.com, biliana.pehlivanova@enron.com, 
-	willis.philip@enron.com, gulay.soykok@enron.com, 
-	chris.stokley@enron.com, ellen.su@enron.com, steve.swain@enron.com, 
-	patrick.tucker@enron.com, maria.van@enron.com, 
-	kristin.walsh@enron.com, lloyd.will@enron.com, 
-	ryan.williams@enron.com, jason.wolfe@enron.com, 
-	virawan.yawapongsiri@enron.com, brian.redmond@enron.com, 
-	david.cash@enron.com, e..haedicke@enron.com, legal <.hall@enron.com>, 
-	t..hodge@enron.com, marcus.nettelton@enron.com, 
-	elizabeth.sager@enron.com, legal <.taylor@enron.com>, 
-	christian.yoder@enron.com, dale.furrow@enron.com, 
-	larry.valderrama@enron.com, russell.ballato@enron.com, 
-	jason.kaniss@enron.com, j..sturm@enron.com, f..calger@enron.com, 
-	john.llodra@enron.com, jim.meyn@enron.com, george.wood@enron.com, 
-	robert.benson@enron.com, dana.davis@enron.com, 
-	bryce.schneider@enron.com, d..thomas@enron.com, 
-	jeff.shields@enron.com, andrea.woodland@enron.com, 
-	sean.crandall@enron.com, diana.scholtes@enron.com, 
-	mike.swerzbin@enron.com, john.griffith@enron.com, 
-	john.lavorato@enron.com, mike.maggi@enron.com, larry.may@enron.com, 
-	andy.zipper@enron.com, john.anderson@enron.com, 
-	don.baughman@enron.com, craig.dean@enron.com, joe.errigo@enron.com, 
-	john.kinser@enron.com, carrie.larkworthy@enron.com, 
-	peter.makkai@enron.com, albert.meyers@enron.com, 
-	michael.mier@enron.com, jeffrey.miller@enron.com, 
-	seung-taek.oh@enron.com, juan.padron@enron.com, 
-	holden.salisbury@enron.com, michael.seely@enron.com, 
-	ryan.slinger@enron.com, geir.solberg@enron.com, brian.terp@enron.com, 
-	bill.abler@enron.com, w..donovan@enron.com, 
-	reagan.rorschach@enron.com, mike.carson@enron.com, 
-	eric.saibi@enron.com, michael.etringer@enron.com, 
-	jake.thomas@enron.com, stephen.thome@enron.com, jim.brysch@enron.com, 
-	gary.bryan@enron.com, morris.larubbio@enron.com, eric.bass@enron.com, 
-	a..martin@enron.com, charles.weldon@enron.com, david.ryan@enron.com, 
-	stephanie.miller@enron.com, l..mims@enron.com, 
-	barry.tycholiz@enron.com, houston <.ward@enron.com>, 
-	k..allen@enron.com, don.black@enron.com, frank.ermis@enron.com, 
-	mike.grigsby@enron.com, keith.holst@enron.com, 
-	matthew.lenhart@enron.com, jay.reitmeyer@enron.com, 
-	mathew.smith@enron.com, p..south@enron.com, m..tholt@enron.com, 
-	h..foster@enron.com, jason.biever@enron.com, derek.davies@enron.com, 
-	dean.drozdiak@enron.com, nicole.laporte@enron.com, eric.le@enron.com, 
-	mike.macphee@enron.com, rob.milnthorp@enron.com, 
-	howard.sangwine@enron.com, chad.clark@enron.com, 
-	mike.cowan@enron.com, chris.dorland@enron.com, lon.draper@enron.com, 
-	chris.lambie@enron.com, cooper.richey@enron.com, ryan.watt@enron.com, 
-	john.zufferli@enron.com, mary.cook@enron.com, angela.davis@enron.com, 
-	genia.fitzgerald@enron.com, leslie.hansen@enron.com, 
-	marie.heard@enron.com, tana.jones@enron.com, c..koehler@enron.com, 
-	pinto.leite@enron.com, david.portz@enron.com, carol.st.@enron.com
-Subject: Trader Presentations - 2/7 @ 2:30 p.m. (CST) in Conf RM 06980
-Cc: louise.kitchen@enron.com, greg.whalley@enron.com, tammie.schoppe@enron.com
+Message-ID: <29790972.1075855665306.JavaMail.evans@thyme>
+Date: Wed, 13 Dec 2000 18:41:00 -0800 (PST)
+From: 1.11913372.-2@multexinvestornetwork.com
+To: pallen@enron.com
+Subject: December 14, 2000 - Bear Stearns' predictions for telecom in Latin
+ America
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
-Bcc: louise.kitchen@enron.com, greg.whalley@enron.com, tammie.schoppe@enron.com
-X-From: Taylor, Liz </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LTAYLOR>
-X-To: Lackey, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Clackey2>, Mcdonald, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmcdona>, Wente, Laura </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lwente>, Belden, Tim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tbelden>, Richter, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jrichte>, Frihart, Bryant </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bfrihart>, McCaffrey, Deirdre </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dmccaff>, Lewis, Andrew H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Alewis>, Pimenov, Vladi </O=ENRON/OU=NA/CN=RECIPIENTS/CN=VPIMENOV>, Shively, Hunter S. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Hshivel>, Storey, Geoff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gstorey>, Williams, Jason (Trading) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jwillia>, Brackett, Debbie R. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dbracke>, Bradford, William S. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wbradfo>, Brown, Kortney </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kbrown>, Conwell, Wendy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wconwell>, Mcginnis, Stephanie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Smcginn>, Nelson, Roderick </O=ENRON/OU=EU/cn=Recipients/cn=rnelson>, Reasoner, Monica </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mreason>, Sacks, Edward </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esacks>, Sonnonstine, Max </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Msonnons>, Suttle, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jsuttle>, Williams, Jason R (Credit) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jwilli10>, Abramo, Caroline </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cabramo>, Breslau, Craig </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cbresla>, Gilbert, George N. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ggilber>, Lagrasta, Fred </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Flagras>, Otto, Charles H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cotto>, Patel, Sheetal </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Spatel2>, Shipos, Jennifer </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jshipos>, Kaiser, Jared </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jkaiser>, Taylor, Craig </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jtaylo2>, Vickers, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Fvicker>, Ames, Chuck </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cames>, Brawner, Sandra F. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sbrawne>, Mckay, Jonathan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jmckay1>, Neal, Scott </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sneal>, Ring, Andrea </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Aring>, Townsend, Judy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jtownse>, Stalford, Robert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rstalfor>, Wang, Steve </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Swang3>, Presto, Kevin M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kpresto>, Hrap, Gerry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ghrap>, Oh, Grant </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Goh>, Taylor, Fabian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ftaylor>, Tripp, Garrett </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gtripp>, Cross, Edith </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ecross>, Curry, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mcurry>, Pacheco, Leonardo </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lpacheco>, Gilbert-smith, Doug </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dsmith3>, King, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jking6>, Schiavone, Paul </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pschiavo>, Agarwalla, Dipak </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dagarwal>, Bayer, Adam </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Abayer>, Burk, Bart </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bburk>, Buss, Jd </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jeremy_buss>, Heu, Mog </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mheu>, Cline, Kevin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kcline>, Gaskill, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cgaskill>, Giron, Gustavo </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ggiron>, Heizenrader, Tim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Theizen>, Imai, Rika </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RIMAI>, Johnston, Robert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rjohnst>, Lieskovsky, Jozef </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jlieskov>, Lin, Martin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mlin>, Mahmassani, Souad </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Smahmass>, Marquez, Mauricio </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmarque2>, Nelson, Kourtney </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Knelson>, O'Malley, Justin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jomalley>, Pehlivanova, Biliana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bpehliva>, Philip, Willis </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wphilip>, Soykok, Gulay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gsoykok>, Stokley, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mstokle>, Su, Ellen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esu2>, Swain, Steve </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sswain>, Tucker, Patrick </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ptucker>, Van houten, Maria </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mvanhout>, Walsh, Kristin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kwalsh>, Will, Lloyd </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lwill>, Williams, Ryan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rwillia8>, Wolfe, Jason </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jwolfe>, Yawapongsiri, Virawan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Vyawapon>, Redmond, Brian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bredmon>, Cash, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Notesaddr/cn=bb562700-350fbfbd-862567a9-62e280>, Haedicke, Mark E. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mhaedic>, Hall, Steve C. (Legal) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Shall4>, Hodge, Jeffrey T. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jhodge>, Nettelton, Marcus </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mnettelt>, Sager, Elizabeth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esager>, Taylor, Mark E (Legal) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mtaylo1>, Yoder, Christian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cyoder>, Furrow, Dale </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dfurrow>, Valderrama, Larry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lvalder>, Ballato, Russell </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rballato>, Kaniss, Jason </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jkaniss>, Sturm, Fletcher J. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Fsturm>, Calger, Christopher F. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ccalger>, Llodra, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jllodra>, Meyn, Jim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jmeyn>, Wood, George </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gwood>, Benson, Robert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rbenson>, Davis, Mark Dana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mdavis>, Schneider, Bryce </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bschneid>, Thomas, Paul D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pthomas2>, Shields, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jshields>, Woodland, Andrea </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Awoodlan>, Crandall, Sean </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Scranda>, Scholtes, Diana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dscholt>, Swerzbin, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mswerzb>, Griffith, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jgriffit>, Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JLAVORA>, Maggi, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmaggi>, May, Larry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lmay2>, Zipper, Andy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Azipper>, Anderson, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Janders3>, Baughman Jr., Don </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dbaughm>, Dean, Craig </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cdean2>, Errigo, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jerrigo>, Kinser, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jkinser>, Larkworthy, Carrie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Clarkwor>, Makkai, Peter </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pmakkai>, Meyers, Albert </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bmeyers>, Mier, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmier>, Miller, Jeffrey </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jmiller>, Oh, Seung-Taek </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Soh2>, Padron, Juan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jpadron>, Salisbury, Holden </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Hsalisbu>, Seely, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Charles_Seely>, Slinger, Ryan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rslinger>, Solberg, Geir </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gsolber>, Terp, Brian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bterp>, Abler, Bill </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Wabler>, Donovan, Terry W. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tdonova>, Rorschach, Reagan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rrorscha>, Carson, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mcarson2>, Saibi, Eric </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Esaibi>, Etringer, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Metring>, Thomas, Jake </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jthomas5>, Thome, Stephen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sthome>, Brysch, Jim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jbrysch>, Bryan, Gary </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gbryan>, Larubbio, Morris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mlarubbi>, Bass, Eric </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ebass>, Martin, Thomas A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tmartin>, Weldon, V. Charles </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Vweldon>, Ryan, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dryan>, Miller, Stephanie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Smiller2>, Mims, Patrice L. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pmims>, Tycholiz, Barry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Btychol>, Ward, Kim S (Houston) </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kward>, Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen>, Black, Don </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dblack>, Ermis, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Fermis>, Grigsby, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mgrigsb>, Holst, Keith </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kholst>, Lenhart, Matthew </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mlenhar>, Reitmeyer, Jay </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jreitme>, Smith, Mathew </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Msmith18>, South, Steven P. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ssouth>, Tholt, Jane M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jtholt>, Foster, Chris H. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cfoster>, Biever, Jason </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jbiever>, Davies, Derek </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ddavies>, Drozdiak, Dean </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ddrozdia>, Laporte, Nicole </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Nlaporte>, Le Dain, Eric </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Eledain>, Macphee, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mmacphee>, Milnthorp, Rob </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rmilnth>, Sangwine, Howard </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Hsangwi>, Clark, Chad </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cclark5>, Cowan, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mcowan1>, Dorland, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cdorlan>, Draper, Lon </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ldraper>, Lambie, Chris </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Clambie>, Richey, Cooper </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Crichey>, Watt, Ryan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rwatt>, Zufferli, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jzuffer>, Cook, Mary </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mcook>, Davis, Angela </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Adavis4>, Fitzgerald, Genia </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gfitzge>, Hansen, Leslie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lhansen>, Heard, Marie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mheard>, Jones, Tana </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tjones>, Koehler, Anne C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Akoehle>, Leite, Francisco Pinto </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Fleite>, Portz, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dportz>, St. Clair, Carol </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cstclai>
-X-cc: Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lkitchen>, Whalley, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Gwhalle>, Schoppe, Tammie </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tstaggs>, 'Lisa.Feld@ubs.com', 'Tanya.Castell@ubsw.com', Gil, Mercy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mgil>
+X-From: Multex Investor <1.11913372.-2@multexinvestornetwork.com>
+X-To: <pallen@enron.com>
+X-cc: 
 X-bcc: 
-X-Folder: \ExMerge - Benson, Robert\Inbox
-X-Origin: BENSON-R
-X-FileName: rob benson 6-25-02.PST
+X-Folder: \Phillip_Allen_Dec2000\Notes Folders\All documents
+X-Origin: Allen-P
+X-FileName: pallen.nsf
 
-     
-There will be two presentations tomorrow from UBS commencing at 2:30 p.m. (CST).  These will be held in ECS 06980 and the conference dial-in numbers are listed below.  
+In today's Daily Update you'll find free reports on
+America Online (AOL), Divine Interventures (DVIN),
+and 3M (MMM); reports on the broadband space, Latin
+American telecom, and more.
 
-				2:30 p.m.	Bill Glass & Bill Bradford - Credit
-				3:00 p.m.	Alex Fusco - New Business Guidelines
+For free research, editor's picks, and more come to the Daily Investor:
+http://www.multexinvestor.com/AF004627/magazinecover.asp?promo=unl&d=20001214#
+investor
 
-Dial-in #		800.486.2726
-Host code	353763 (Louise)
-Participant	547763
+***************************************************************
+You are receiving this mail because you have registered for
+Multex Investor. To unsubscribe, see bottom of this message.
+***************************************************************
 
-Many Thanks,
+======================== Sponsored by =========================
+Would you own just the energy stocks in the S&P 500?
+Select Sector SPDRs divides the S&P 500 into nine sector index funds.
+Pick and choose just the pieces of the S&P 500 you like best.
+http://www.spdrindex.com
+===============================================================
 
-Liz Taylor
-Assistant to Greg Whalley
-713.853.1935 office
-713.853.1838 fax
-713.854.3056 mobile
+Featured in today's edition of the Daily Update:
+
+1. SPECIAL ANNOUNCEMENT: Treat yourself to Multex Investor's NEW Personal
+Finance Channel to take advantage of top-notch content and tools  FREE.
+
+2. DAILY FREE SPONSOR REPORT: Robertson Stephens maintains a "buy" rating
+on Divine Interventures (DVIN).
+
+3. FREE RESEARCH REPORT: Jefferies & Co. rates America Online (AOL) a
+"buy," saying projected growth remains in place.
+
+4. ASK THE ANALYST: Morgan Stanley Dean Witter's Lew Smith in the Analyst
+Corner
+
+5. HOT REPORT: Oscar Gruss & Son's most recent issue of its Broadband
+Brief reports the latest developments in the broadband space.
+
+6. EDITOR'S PICK: Bear Stearns measures the impact of broadband and the
+Internet on telecom in Latin America.
+
+7. FREE STOCK SNAPSHOT: The current analysts' consensus rates 3M (MMM), a
+"buy/hold."
+
+8. JOIN THE MARKETBUZZ: where top financial industry professionals answer
+your questions and offer insights every market day from noon 'til 2:00
+p.m. ET.
+
+9. TRANSCRIPTS FROM WALL STREET: Ash Rajan, senior vice president and
+market analyst with Prudential Securities, answers questions about the
+market.
+
+======================== Sponsored by =========================
+Profit From AAII's "Cash Rich" Stock Screen - 46% YTD Return
+
+With so much market volatility, how did AAII's "Cash Rich"
+Stock Screen achieve such stellar returns?  Find the answer by
+taking a free trial membership from the American Association
+of Individual Investors and using our FREE Stock Screen service at:
+http://subs.aaii.com/c/go/XAAI/MTEX1B-aaiitU1?s=S900
+===============================================================
+
+1. NEW ON MULTEX INVESTOR
+Take charge of your personal finances
+
+Do you have endless hours of free time to keep your financial house in
+order? We didn't think so. That's why you need to treat yourself to Multex
+Investor's NEW Personal Finance Channel to take advantage of top-notch
+content and tools  FREE.
+Click here for more information.
+http://www.multexpf.com?mktg=sgpftx4&promo=unl&t=10&d=20001214
 
 
- 
+2. DAILY FREE SPONSOR REPORT
+Divine Interventures (DVIN)
+
+Robertson Stephens maintains a "buy" rating on Divine Interventures, an
+incubator focused on infrastructure services and business-to-business
+(B2B) exchanges. Register for Robertson Stephens' free-research trial to
+access this report.
+Click here.
+http://www.multexinvestor.com/Download.asp?docid=5018549&sid=9&promo=unl&t=12&
+d=20001214
 
 
+3. FREE RESEARCH REPORT
+Hold 'er steady -- America Online (AOL)
+
+AOL's projected growth and proposed merger with Time Warner (TWX) both
+remain in place, says Jefferies & Co., which maintains a "buy" rating on
+AOL. In the report, which is free for a limited time, analysts are
+confident the deal will close soon.
+Click here.
+http://www.multexinvestor.com/AF004627/magazinecover.asp?promo=unl&t=11&d=2000
+1214
 
 
-                    
+4. TODAY IN THE ANALYST CORNER
+Following market trends
+
+Morgan Stanley Dean Witter's Lew Smith sees strong underlying trends
+guiding future market performance. What trends does he point to, and what
+stocks and sectors does he see benefiting from his premise?
+
+Here is your opportunity to gain free access to Morgan Stanley's research.
+Simply register and submit a question below. You will then have a free
+trial membership to this top Wall Street firms' research!  Lew Smith will
+be in the Analyst Corner only until 5 p.m. ET Thurs., Dec. 14, so be sure
+to ask your question now.
+Ask the analyst.
+http://www.multexinvestor.com/ACHome.asp?promo=unl&t=1&d=20001214
 
 
-      
+5. WHAT'S HOT? RESEARCH REPORTS FROM MULTEX INVESTOR'S HOT LIST
+Breaking the bottleneck -- An update on the broadband space
+
+Oscar Gruss & Son's most recent issue of its Broadband Brief reports the
+latest developments in the broadband space, with coverage of Adaptive
+Broadband (ADAP), Broadcom (BRCM), Efficient Networks (EFNT), and others
+(report for purchase - $25).
+Click here.
+http://www.multexinvestor.com/Download.asp?docid=5149041&promo=unl&t=4&d=20001
+214
+
+======================== Sponsored by =========================
+Get Red Herring insight into hot IPOs, investing strategies,
+stocks to watch, future technologies, and more. FREE
+E-newsletters from Redherring.com provide more answers,
+analysis and opinion to help you make more strategic
+investing decisions. Subscribe today
+http://www.redherring.com/jump/om/i/multex/email2/subscribe/47.html
+===============================================================
+
+6. EDITOR'S PICK: CURRENT RESEARCH FROM THE CUTTING EDGE
+Que pasa? -- Predicting telecom's future in Latin America
+
+Bear Stearns measures the impact of broadband and the Internet on telecom
+in Latin America, saying incumbent local-exchange carriers (ILECs) are
+ideally positioned to benefit from the growth of Internet and data
+services (report for purchase - $150).
+Click here.
+http://www.multexinvestor.com/Download.asp?docid=5140995&promo=unl&t=8&d=20001
+214
+
+
+7. FREE STOCK SNAPSHOT
+3M (MMM)
+
+The current analysts' consensus rates 3M, a "buy/hold." Analysts expect
+the industrial product manufacturer to earn $4.76 per share in 2000 and
+$5.26 per share in 2001.
+Click here.
+http://www.multexinvestor.com/Download.asp?docid=1346414&promo=unl&t=3&d=20001
+214
+
+
+8. JOIN THE MARKETBUZZ!
+Check out SageOnline
+
+where top financial industry professionals answer your questions and offer
+insights every market day from noon 'til 2:00 p.m. ET.
+Click here.
+http://multexinvestor.sageonline.com/page2.asp?id=9512&ps=1&s=2&mktg=evn&promo
+=unl&t=24&d=20001214
+
+
+9. TRANSCRIPTS FROM WALL STREET'S GURUS
+Prudential Securities' Ash Rajan
+
+In this SageOnline transcript from a chat that took place earlier this
+week, Ash Rajan, senior vice president and market analyst with Prudential
+Securities, answers questions about tech, retail, finance, and the outlook
+for the general market.
+Click here.
+http://multexinvestor.sageonline.com/transcript.asp?id=10403&ps=1&s=8&mktg=trn
+&promo=unl&t=13&d=20001214
+
+===================================================================
+Please send your questions and comments to mailto:investor.help@multex.com
+
+If you'd like to learn more about Multex Investor, please visit:
+http://www.multexinvestor.com/welcome.asp
+
+If you can't remember your password and/or your user name, click here:
+http://www.multexinvestor.com/lostinfo.asp
+
+If you want to update your email address, please click on the url below:
+http://www.multexinvestor.com/edituinfo.asp
+===================================================================
+To remove yourself from the mailing list for the Daily Update, please
+REPLY to THIS email message with the word UNSUBSCRIBE in the subject
+line. To remove yourself from all Multex Investor mailings, including
+the Daily Update and The Internet Analyst, please respond with the
+words NO EMAIL in the subject line.
+
+You may also unsubscribe on the account update page at:
+http://www.multexinvestor.com/edituinfo.asp
+===================================================================
+Please email advertising inquiries to us at mailto:advertise@multex.com.
+
+For information on becoming an affiliate click here: 
+http://www.multexinvestor.com/Affiliates/home.asp?promo=unl
+
+Be sure to check out one of our other newsletters, The Internet Analyst by
+Multex.com. The Internet Analyst informs, educates, and entertains you with
+usable investment data, ideas, experts, and info about the Internet industry.
+To see this week's issue, click here: http://www.theinternetanalyst.com
+
+If you are not 100% satisfied with a purchase you make on Multex
+Investor, we will refund your money.
