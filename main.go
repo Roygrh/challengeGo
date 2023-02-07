@@ -146,7 +146,7 @@ func setAllValues(content string) string {
 				contentString[i] = `","Message":"` + tmp
 			} else if i < len(lines)-1 {
 				tmp := setValue(trimmedLine, lines[i+1], words, result)
-				contentString[i] = tmp + "\n"
+				contentString[i] = tmp + " "
 			} else {
 				tmp := setValue(trimmedLine, "", words, result)
 				contentString[i] = tmp
@@ -248,17 +248,37 @@ func readDirectory(directoryPath string) {
 		return
 	}
 
+	namefiles := make([]string, 5)
+	namefiles[0] = "1."
+	namefiles[1] = "2."
+	namefiles[2] = "3."
+	namefiles[3] = "4."
+	namefiles[4] = "5."
+
+	jsonStrings := make([]string, 5)
+
 	for _, file := range fileInfo {
 		if file.IsDir() {
-			// aquí puedes hacer una llamada recursiva para explorar la subcarpeta
+			//
 		} else {
-			fmt.Println(file.Name())
+			for i, name := range namefiles {
+				if file.Name() == name {
+					fmt.Println(directoryPath + "/" + name)
+					data := loadDataFromFile(directoryPath + "/" + name)
+					emailContent := transformDataToString(data)
+					jsonStrings[i] = setAllValues(emailContent)
+					var jsonData map[string]interface{}
+					json.Unmarshal([]byte(jsonStrings[i]), &jsonData)
+
+					fmt.Println(jsonData)
+				}
+			}
 		}
 	}
 }
 
 func main() {
-	file, err := os.Open("resources/email.txt")
+	/*file, err := os.Open("resources/email.txt")
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -283,8 +303,8 @@ func main() {
 	//json.Unmarshal([]byte(result2[:len(result2)-2]+"}"), &jsonData)
 
 	fmt.Println(jsonData)
-	fmt.Println("*************************")
+	fmt.Println("*************************")*/
 
-	readDirectory("all_documents")
+	readDirectory("D:/BACK UP ENRIQUE/reposGO/emails/enron_mail_20110402/maildir/allen-p/all_documents")
 
 }
