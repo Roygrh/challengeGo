@@ -249,11 +249,11 @@ func readDirectory(directoryPath string) {
 	}
 
 	namefiles := make([]string, 5)
-	namefiles[0] = "1."
-	namefiles[1] = "2."
-	namefiles[2] = "3."
-	namefiles[3] = "4."
-	namefiles[4] = "5."
+	namefiles[0] = "1"
+	namefiles[1] = "2"
+	namefiles[2] = "3"
+	namefiles[3] = "4"
+	namefiles[4] = "5"
 
 	jsonStrings := make([]string, 5)
 
@@ -270,7 +270,12 @@ func readDirectory(directoryPath string) {
 					var jsonData map[string]interface{}
 					json.Unmarshal([]byte(jsonStrings[i]), &jsonData)
 
-					fmt.Println(jsonData)
+					if jsonData == nil {
+						fmt.Println("Its null")
+					} else {
+						fmt.Println(jsonData)
+						fmt.Println("/*********************************************/")
+					}
 				}
 			}
 		}
@@ -296,15 +301,12 @@ func main() {
 	result := setAllValues(emailContent)
 	//result2 := setAllSimpleValues(emailContent)
 	//fmt.Println(result2[:len(result2)-2] + "}")
-	fmt.Println(result)
-	fmt.Println("*************************")
 	var jsonData map[string]interface{}
 	json.Unmarshal([]byte(result), &jsonData)
 	//json.Unmarshal([]byte(result2[:len(result2)-2]+"}"), &jsonData)
-
 	fmt.Println(jsonData)
 	fmt.Println("*************************")*/
 
-	readDirectory("D:/BACK UP ENRIQUE/reposGO/emails/enron_mail_20110402/maildir/allen-p/all_documents")
+	readDirectory("D:/Go/trourachallenge/enron_mail_20110402/maildir/allen-p/all_documents")
 
 }
